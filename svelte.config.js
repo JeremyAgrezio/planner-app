@@ -10,10 +10,12 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
+		/*
 		paths: {
 			base: process.argv.includes('dev') ? '/planner-app' : '/planner-app',
 			//base: process.env.NODE_ENV === 'production' ? '/planner-app' : '/planner-app',
 		}
+  		*/
 	}
 };
 
