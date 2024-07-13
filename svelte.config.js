@@ -14,9 +14,9 @@ const config = {
 		}),
 		paths: {
 			//base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-			base: process.argv.includes('dev') ? '' : '/msm-report'
-			//base: process.argv.includes('dev') ? '/msm-report' : '/msm-report'
-			//base: process.env.NODE_ENV === 'production' ? '/msm-report' : '/msm-report',
+			base: process.argv.includes('dev') ? '/planner-app' : process.env.BASE_PATH
+			//base: process.argv.includes('dev') ? '/planner-app' : '/planner-app'
+			//base: process.env.NODE_ENV === 'production' ? '/planner-app' : '/planner-app',
 		}
 	}
 };
