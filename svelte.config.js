@@ -14,7 +14,7 @@ const config = {
 		}),
 		paths: {
 			//base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-			base: process.argv.includes('dev') ? '/planner-app' : process.env.BASE_PATH
+			base: process.argv.includes('dev') ? '' : '/planner-app'
 			//base: process.argv.includes('dev') ? '/planner-app' : '/planner-app'
 			//base: process.env.NODE_ENV === 'production' ? '/planner-app' : '/planner-app',
 		}
