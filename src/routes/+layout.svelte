@@ -1,5 +1,5 @@
 <script>
-	// script section if needed
+	export const prerender = true;
 </script>
 
 <div class="app-container">
