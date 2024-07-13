@@ -1,5 +1,5 @@
-import adapter from '@sveltejs/adapter-auto';
-//import adapter from '@sveltejs/adapter-static';
+//import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -10,12 +10,10 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		/*
 		paths: {
 			base: process.argv.includes('dev') ? '/planner-app' : '/planner-app',
 			//base: process.env.NODE_ENV === 'production' ? '/planner-app' : '/planner-app',
 		}
-  		*/
 	}
 };
 
